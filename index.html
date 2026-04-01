@@ -1,13 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GetSomeDatas</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <script src="index.js"></script>
-  </body>
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1 style="text-align: center;">Enter password</h1>
+<div style="text-align: center;">
+  <input id="pw" type="password" placeholder="password">
+  <button id="ok">Unlock</button>
+</div>   
+
+  <script>
+  // change: this is client-side only; password is still discoverable.
+  (function(){
+    const CORRECT = "password123456789";
+    document.getElementById('ok').addEventListener('click',()=>{
+      const v = document.getElementById('pw').value || "";
+      if (v.trim() === CORRECT) {
+        sessionStorage.setItem('unlocked','1');
+        location.href = 'realpage/realpage.html';
+      } else {
+        alert('Wrong password');
+      }
+    });
+  })();
+  </script>
+</body>
 </html>

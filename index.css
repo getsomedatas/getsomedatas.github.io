@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0px auto;
+    padding: 20px;
+    width: 750px;
+    max-width: 100%;
+}
+
+/* Header */
+h1 {
+    color: #3498db;
+    text-align: center;
+    font-size: 1.5rem; /* Ensure header font size is larger */
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem; 
+}
+
+a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+    font-size: 1.1rem;
+}
+
+/* Preformatted text (for directory listing) */
+pre {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+/* Horizontal Rule */
+hr {
+    border: 1px solid #444;
+}
+
+#odu img {
+    margin: 1rem auto;
+    width: 300px;
+}
+
+#odu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+}
