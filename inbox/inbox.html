@@ -1,13 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Joe Cybercrime Inbox</title>
-    <link rel="stylesheet" href="inbox.css">
-  </head>
-  <body>
-    <script src="inbox.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inbox | jcrimez@protonmail.com</title>
+  <link rel="stylesheet" href="inbox.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       APP SHELL
+  ═══════════════════════════════════════════════════════════ -->
+  <div class="app">
+
+    <!-- ── SIDEBAR ───────────────────────────────────────────── -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <span class="logo-icon">⬡</span>
+        <span class="logo-text">ProtonMail</span>
+      </div>
+
+      <button class="compose-btn" id="compose-btn">
+        <span class="compose-icon">✎</span> New Message
+      </button>
+
+      <nav class="folder-nav">
+        <ul>
+          <li class="folder-item active" data-folder="inbox">
+            <span class="folder-icon">✉</span>
+            <span class="folder-label">Inbox</span>
+            <span class="folder-badge" id="badge-inbox"></span>
+          </li>
+          <li class="folder-item" data-folder="sent">
+            <span class="folder-icon">➤</span>
+            <span class="folder-label">Sent</span>
+          </li>
+          <li class="folder-item" data-folder="drafts">
+            <span class="folder-icon">✏</span>
+            <span class="folder-label">Drafts</span>
+            <span class="folder-badge" id="badge-drafts"></span>
+          </li>
+          <li class="folder-item" data-folder="starred">
+            <span class="folder-icon">★</span>
+            <span class="folder-label">Starred</span>
+          </li>
+          <li class="folder-item" data-folder="trash">
+            <span class="folder-icon">🗑</span>
+            <span class="folder-label">Trash</span>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="sidebar-account">
+        <div class="account-avatar" id="account-avatar"></div>
+        <div class="account-info">
+          <span class="account-name" id="account-name"></span>
+          <span class="account-email" id="account-email"></span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- ── EMAIL LIST ─────────────────────────────────────────── -->
+    <section class="email-list-panel">
+      <div class="list-toolbar">
+        <span class="list-folder-title" id="list-folder-title">Inbox</span>
+        <span class="list-count" id="list-count"></span>
+      </div>
+
+      <ul class="email-list" id="email-list">
+        <!-- populated by JS -->
+      </ul>
+    </section>
+
+    <!-- ── EMAIL VIEWER ──────────────────────────────────────── -->
+    <section class="email-viewer" id="email-viewer">
+      <div class="viewer-empty" id="viewer-empty">
+        <span class="viewer-empty-icon">✉</span>
+        <p>Select a message to read it</p>
+      </div>
+
+      <div class="viewer-content" id="viewer-content" hidden>
+        <div class="viewer-header">
+          <div class="viewer-subject-row">
+            <h2 class="viewer-subject" id="viewer-subject"></h2>
+            <span class="viewer-label-tag" id="viewer-label-tag"></span>
+          </div>
+          <div class="viewer-meta">
+            <div class="viewer-avatar" id="viewer-avatar"></div>
+            <div class="viewer-from-block">
+              <span class="viewer-from-name" id="viewer-from-name"></span>
+              <span class="viewer-from-email" id="viewer-from-email"></span>
+            </div>
+            <span class="viewer-date" id="viewer-date"></span>
+          </div>
+          <div class="viewer-to-line">
+            <span class="viewer-to-label">To:</span>
+            <span class="viewer-to" id="viewer-to"></span>
+          </div>
+        </div>
+
+        <div class="viewer-body" id="viewer-body"></div>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="inbox.js"></script>
+</body>
 </html>

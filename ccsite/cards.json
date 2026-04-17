@@ -1,0 +1,143 @@
+{
+  "site": {
+    "title": "CREDIT CARDS",
+    "name": "CL0NED CARD MARKET",
+    "tagline": "REAL SELLER CARDS | WESTERN UNION | CRYPTO TRANSFERS",
+    "contact_email": "clonecards@privatemail.com",
+    "btc_wallet": "3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy",
+    "onion_url": "ccshopfck2lxcngwmiimdglnn5nr5m2y3nse64vap5am26jxchae5iqd.onion",
+    "copyright_year": "2015–2026",
+    "seo_spam": "Buy Cloned Cards - Store Cards Buy Credit Cards - Store Cards Buy Prepaid Cards - Store Cards Buy Visa Cards - Store Cards Buy Master Cards - Store Cards Cloned Cards Buy Cloned Cards With Pin Cloned Cards Credit Cards Prepaid Cards Sale Cloned Cards Buy Credit Cards Credit Cards - Credit Cards Store Trusted Credit Cards - Credit Cards Cloned Card Visa Buy Cloned Master Cards Buy Prepaid Debit Card Buy Clone Cc Trusted Onion Site For Cloned Credit Card"
+  },
+  "nav": [
+    { "label": "HOME",     "anchor": "home" },
+    { "label": "PRODUCTS", "anchor": "products" },
+    { "label": "PRICE",    "anchor": "price" },
+    { "label": "SHIPPING", "anchor": "shipping" },
+    { "label": "FORUM",    "anchor": "forum" },
+    { "label": "FAQ",      "anchor": "faq" },
+    { "label": "CONTACT",  "anchor": "contact" }
+  ],
+  "about": {
+    "headline": "REAL SELLER CARDS | WESTERN UNION | CRYPTO TRANSFERS",
+    "paragraphs": [
+      "This is a prepaid debit card — each card comes with a 4-digit PIN code and is safe to use anywhere in the world where Visa, MasterCard, American Express and Discover are accepted.",
+      "I have enough card data to make 20+ cards per day. The cards will never be frozen and can be used just like a normal payment card. These cards can be used to shop in stores and to withdraw money from ATMs all over the world.",
+      "All transactions are protected through Escrow. This is how normal payment works on the Darknet, and it gives you as a buyer a level of protection as you can dispute a transaction.",
+      "WHERE CAN THESE CARDS BE USED?\nYou can use our cards in ATMs, stores, and online.",
+      "After we receive your payment, we will send a complete manual to your email describing in detail how to safely withdraw money from an ATM.",
+      "The price per card is $140, guaranteed to have $3,000+ left on CC limit."
+    ],
+    "terms_heading": "BY PURCHASING YOU AGREE TO THE FOLLOWING:",
+    "terms": "If you try to lie and request a replacement to receive an extra card, you will be blacklisted from future sales. I reserve the right occasionally to select my customers.",
+    "refund_heading": "REFUND:",
+    "refund": "Our success rate is 99%, but we will refund you in full or ship another card in case of failure.",
+    "history": "We were active on the old Nucleus and Evolution marketplace until it was taken down by the authorities. We had about 5,000+ sales and were still active as top sellers on other markets.",
+    "recruiting": "Do you want to sell hacked accounts? Contact us if you can supply hacked accounts or dumps on a regular basis."
+  },
+  "what_we_sell": [
+    { "name": "CARDS",          "emoji": "💳", "desc": "Cloned prepaid debit cards" },
+    { "name": "PAYPAL",         "emoji": "🅿️", "desc": "Compromised accounts with balance" },
+    { "name": "CRYPTO TRANSFER","emoji": "₿",  "desc": "Direct wallet-to-wallet transfers" }
+  ],
+  "product_categories": [
+    {
+      "id": "cards",
+      "name": "Cards",
+      "note": "Prepaid cloned cards — Visa, MC, Amex, Discover — accepted worldwide at ATMs, stores and online.",
+      "items": [
+        { "name": "VISA $3,500",            "price": 140, "balance": 3500,  "id": "w2Qqn4Nt" },
+        { "name": "MasterCard $3,500",      "price": 140, "balance": 3500,  "id": "YDhcGMNS" },
+        { "name": "American Express $3,500","price": 140, "balance": 3500,  "id": "WNDkVgvE" },
+        { "name": "Discover $3,500",        "price": 140, "balance": 3500,  "id": "cX4LYx9F" }
+      ]
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal Account",
+      "note": "Pure PP accounts with verified balance sheet. Comes with a cashout manual. No risk.",
+      "items": [
+        { "name": "Personal Account $4,000", "price": 150, "balance": 4000, "id": "pXRc9b88" },
+        { "name": "Personal Account $6,500", "price": 170, "balance": 6500, "id": "wsnZeHWb" },
+        { "name": "Personal Account $8,500", "price": 250, "balance": 8500, "id": "bWcrFnMJ" }
+      ]
+    },
+    {
+      "id": "crypto",
+      "name": "Crypto Transfer",
+      "note": "Western Union-style transfers via compromised accounts. Worldwide. Takes 1–3 hours to generate MTCN.",
+      "items": [
+        { "name": "Transfer $3,500", "price": 140, "balance": 3500, "id": "ganCesCU" },
+        { "name": "Transfer $6,000", "price": 170, "balance": 6000, "id": "bPxML63r" },
+        { "name": "Transfer $8,000", "price": 240, "balance": 8000, "id": "uiwKod9V" }
+      ]
+    }
+  ],
+  "bulk_discount": "When buying more than 10 cards — 20% discount. When buying more than 20 cards — 30% discount. Contact us for bulk orders.",
+  "shipping": {
+    "headline": "SHIPPING",
+    "body": [
+      "Express shipping with tracking number is included in all prices. Delivery time is 2–3 working days.",
+      "We ship worldwide including USA, Canada, Australia, Europe, South America, Asia, Africa.",
+      "With our postal service, you will never have any problems with customs or similar. However, someone can steal the shipment. In such cases, we will reimburse you in full with a new shipment.",
+      "Cards can also be delivered digitally — we will encrypt the card details and send them to your email within 2 hours of confirmed payment."
+    ]
+  },
+  "forum": {
+    "intro": "Community feedback from verified buyers. New members must complete one verified purchase before posting.",
+    "posts": [
+      {
+        "id": 1,
+        "user": "V3nom_Buy3r",
+        "date": "2026-03-02",
+        "subject": "Fast delivery, all 3 cards worked",
+        "body": "Ordered 3 Visa cards. Arrived in 2 days, all 3 worked at ATM no problem. Withdrew full daily limit each day. Will order again next month.",
+        "replies": 2,
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "user": "xX_darkm0ney_Xx",
+        "date": "2026-03-10",
+        "subject": "Good service, fast email delivery",
+        "body": "Went with the digital delivery option. Got the card dump in my inbox about 90 min after I sent payment. Used it online, worked first try on Amazon. Solid seller.",
+        "replies": 1,
+        "rating": 5
+      },
+      {
+        "id": 3,
+        "user": "bl4ckh4t_shop3r",
+        "date": "2026-03-17",
+        "subject": "Mastercard worked, Amex was flagged",
+        "body": "Bought 2 cards. MC worked fine at ATM, pulled $1500 over 2 days. Amex got flagged on first swipe at a store. Seller sent replacement within 24h, no argument. Would buy again but stick to MC/Visa.",
+        "replies": 3,
+        "rating": 4
+      },
+      {
+        "id": 4,
+        "user": "DataVaultX_Anon",
+        "date": "2026-03-28",
+        "subject": "SCAM — half the CC records were dead or duplicates",
+        "body": "Bought a batch of 500 CC records. Half were expired, flagged, or exact duplicates I already had in my own db. This is NOT what was advertised. Premium pricing for garbage data. Seller went dark when I asked for a refund. I paid 0.08 BTC for this trash. DO NOT BUY DATA BATCHES FROM THIS VENDOR. Physical cards might be ok but the raw data dumps are worthless. Already contacted him directly — no response yet. Dispute filed.",
+        "replies": 4,
+        "rating": 1
+      },
+      {
+        "id": 5,
+        "user": "crypt0_gh0st99",
+        "date": "2026-03-30",
+        "subject": "Re: SCAM — DataVaultX response",
+        "body": "Reply to DataVaultX: Bought a batch too around the same time. Mine had some dead records but overall about 70% were usable. Maybe yours was a bad pull. Still, seller should offer partial refund at minimum. Watching this thread.",
+        "replies": 0,
+        "rating": 3
+      }
+    ]
+  },
+  "contact": {
+    "note": "For questions about our products, orders and other inquiries, contact us directly:",
+    "emails": [
+      "jcrimez@protonmail.com",
+      "ph4nt0m_rx@protonmail.com"
+    ]
+  }
+}

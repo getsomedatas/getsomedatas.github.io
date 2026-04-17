@@ -1,0 +1,126 @@
+{
+  "account": {
+    "name": "Joe",
+    "email": "jcrimez@protonmail.com",
+    "avatar": "JC"
+  },
+  "emails": [
+    {
+      "id": 1,
+      "folder": "inbox",
+      "from": "DataVaultX_Anon",
+      "fromEmail": "datavaultx_a@protonmail.com",
+      "to": "jcrimez@protonmail.com",
+      "subject": "REFUND OR I EXPOSE YOU",
+      "date": "2026-03-30T22:47:00",
+      "read": false,
+      "starred": false,
+      "label": "buyer",
+      "body": "You sold me 500 records and half of them were dead emails or duplicates I already had. This is NOT what was advertised.\n\nI paid 0.08 BTC for this trash. You have 48 hours to either refund my wallet or send me clean replacement data — full CC + SSN sets, no duplicates.\n\nIf I don't hear from you I am posting your alias, your proton address, AND your BTC wallet to every forum I can find. I have screenshots of every transaction.\n\nDon't test me. I've done it before."
+    },
+    {
+      "id": 2,
+      "folder": "inbox",
+      "from": "M. Harrington",
+      "fromEmail": "mharrington1974@gmail.com",
+      "to": "jcrimez@protonmail.com",
+      "subject": "I know what you did",
+      "date": "2026-03-29T15:03:00",
+      "read": true,
+      "starred": false,
+      "label": "threat",
+      "body": "I don't know who you are, but I know what you did.\n\nMy credit card information, my SSN, my medical records — all of it turned up on a dark web forum. My bank traced the breach back to my email provider last October. I hired a cybersecurity consultant to help me trace it further and they found a trail that ended at this email address.\n\nI have already filed a report with the FBI Cyber Division. They are actively investigating. But trust me. If they don't get you, I FUCKING will.\n\nYou think you are anonymous, but you are not as invisible as you believe.\n\nIf you have any sense of self-preservation, you will stop whatever you are doing. This does not end well for you.\n\n— M. Harrington"
+    },
+    {
+      "id": 3,
+      "folder": "inbox",
+      "from": "ph4nt0m_rx",
+      "fromEmail": "ph4nt0m_rx@protonmail.com",
+      "to": "jcrimez@protonmail.com",
+      "subject": "Re: next batch",
+      "date": "2026-03-28T01:22:00",
+      "read": true,
+      "starred": true,
+      "label": "partner",
+      "body": "batch is ready. 1,200 records — mix of CC + SSN + medical. the medical ones are premium tier, don't list those under $0.04/rec, we talked about this.\n\nalso you need to stop being weird about last week. i told you it doesn't mean anything. we keep this professional or we don't keep it at all. your choice.\n\nsplit is 60/40 like we agreed. my cut goes first this time. you keep acting like you're going to disappear with it and it's getting old."
+    },
+    {
+      "id": 4,
+      "folder": "inbox",
+      "from": "ph4nt0m_rx",
+      "fromEmail": "ph4nt0m_rx@protonmail.com",
+      "to": "jcrimez@protonmail.com",
+      "subject": "doordash tonight",
+      "date": "2026-03-29T20:55:00",
+      "read": true,
+      "starred": false,
+      "label": "partner",
+      "body": "getting doordash tonight, you want anything\n\nalso i might be a little late if i stop somewhere first. just fyi."
+    },
+    {
+      "id": 5,
+      "folder": "inbox",
+      "from": "ph4nt0m_rx",
+      "fromEmail": "ph4nt0m_rx@protonmail.com",
+      "to": "jcrimez@protonmail.com",
+      "subject": "we need to talk",
+      "date": "2026-03-30T17:38:00",
+      "read": true,
+      "starred": false,
+      "label": "partner",
+      "body": "i'm coming over tonight. we need to settle this.\n\nyou can't keep acting like this is more than it is. i have my own life and you don't get to be involved in all of it. this was supposed to be business — clean, simple, no complications.\n\nstop texting me from the burner. we said email only on that device. if you can't follow basic opsec i don't know how we're still doing this.\n\ni'll be there after midnight. don't make it weird."
+    },
+    {
+      "id": 6,
+      "folder": "inbox",
+      "from": "CryptoAutoNotify",
+      "fromEmail": "no-reply@cryptopay-notify.net",
+      "to": "jcrimez@protonmail.com",
+      "subject": "Transaction Received — 0.08 BTC",
+      "date": "2026-03-26T14:00:00",
+      "read": true,
+      "starred": false,
+      "label": "crypto",
+      "body": "You have received a new transaction.\n\nAmount:          0.08 BTC\nUSD Equivalent:  $4,812.40 (at time of confirmation)\nFrom wallet:     1BoatSLRHtKNngkdXEeobR76b53LETtpyT\nTo wallet:       3J98t1WpEZ73CNmQviecrnyiWrnqRhWNLy\nConfirmations:   6\nStatus:          CONFIRMED\n\nTransaction ID:\na1b2c3d4e5f67890abcdef1234567890abcdef1234567890abcdef1234567890ab\n\nThis is an automated notification from CryptoPayNotify. Do not reply."
+    },
+    {
+      "id": 7,
+      "folder": "sent",
+      "from": "Joe (jcrimez)",
+      "fromEmail": "jcrimez@protonmail.com",
+      "to": "ph4nt0m_rx@protonmail.com",
+      "subject": "Re: we need to talk",
+      "date": "2026-03-30T18:02:00",
+      "read": true,
+      "starred": false,
+      "label": "sent",
+      "body": "fine. come over.\n\nbut we ARE talking. not just about the business. i'm done pretending that last week was nothing. if you want to keep doing this — any of this — then we need to be honest about what this actually is.\n\nyou know where the key is if the door is locked."
+    },
+    {
+      "id": 8,
+      "folder": "sent",
+      "from": "Joe (jcrimez)",
+      "fromEmail": "jcrimez@protonmail.com",
+      "to": "datavaultx_a@protonmail.com",
+      "subject": "Re: REFUND OR I EXPOSE YOU",
+      "date": "2026-03-31T00:08:00",
+      "read": true,
+      "starred": false,
+      "label": "sent",
+      "body": "i pulled the records i sent you. they were clean when they left here. if you got duplicates that's a you problem — check your own db before you come at me.\n\nno refund. if you post anything you'll regret it more than i will. you're not exactly operating legally yourself."
+    },
+    {
+      "id": 9,
+      "folder": "drafts",
+      "from": "Joe (jcrimez)",
+      "fromEmail": "jcrimez@protonmail.com",
+      "to": "ph4nt0m_rx@protonmail.com",
+      "subject": "i don't know how to say this",
+      "date": "2026-03-30T23:51:00",
+      "read": true,
+      "starred": false,
+      "label": "draft",
+      "body": "i've been sitting here for an hour trying to figure out what i want to say before you get here.\n\ni know you think this is just business. i know that's what you keep telling me. but you know it's not and we both know you know it's not.\n\nif tonight goes bad i just want you to know that\n\n[DRAFT — NOT SENT]"
+    }
+  ]
+}
