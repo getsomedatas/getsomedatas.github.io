@@ -141,6 +141,29 @@
     return li;
   }
 
+  function renderAttachments(attachments) {
+  if (!attachments || attachments.length === 0) return;
+
+    const section = document.createElement('div');
+    section.className = 'attachments-section';
+
+    const label = document.createElement('span');
+    label.className = 'attachments-label';
+    label.textContent = 'Attachments';
+    section.appendChild(label);
+
+    attachments.forEach(a => {
+      const link = document.createElement('a');
+      link.className = 'attachment-link';
+      link.href = a.path;
+      link.download = a.filename;
+      link.textContent = '📎 ' + a.filename;
+      section.appendChild(link);
+    });
+
+    return section;
+  }
+
   /* ── Select and display email ───────────────────────────────── */
   function selectEmail(id) {
     const email = allEmails.find(e => e.id === id);
@@ -184,10 +207,21 @@
     document.getElementById('viewer-date').textContent       = formatDateLong(email.date);
 
     // Body — use mono style for encrypted-looking subjects
+    // Body
     const bodyEl = document.getElementById('viewer-body');
-    const isEncrypted = email.subject.includes('[ENC]') || email.subject.includes('enc');
-    bodyEl.className = 'viewer-body' + (isEncrypted ? ' mono' : '');
+    const hasAttachments = email.attachments && email.attachments.length > 0;
+    bodyEl.className = 'viewer-body' + (hasAttachments ? ' mono' : '');
     bodyEl.textContent = email.body;
+
+    // Attachments
+    const existingAttachments = document.getElementById('viewer-attachments');
+    if (existingAttachments) existingAttachments.remove();
+
+    if (hasAttachments) {
+      const attachmentSection = renderAttachments(email.attachments);
+      attachmentSection.id = 'viewer-attachments';
+      bodyEl.parentElement.appendChild(attachmentSection);
+    }
 
     // Show content
     document.getElementById('viewer-empty').hidden   = true;
